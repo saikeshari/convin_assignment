@@ -1,0 +1,30 @@
+.mainScreen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.UsersSpinnerText{
+    margin-top: 1rem;
+}
+
+.buttonsDiv{
+    display: flex;
+    justify-content: center;
+    /* width: 100vw; */
+    margin-top: 4rem;
+}
+
+.buttonsDiv *{
+    margin: 0.5rem;
+}
+
+.singleUserCard{
+    width: 18rem !important;
+    height: 23rem !important;
+    align-items: center;
+    justify-content: center;
+}
